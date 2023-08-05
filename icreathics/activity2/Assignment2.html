@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="Assignment.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+</head>
+<body>
+    
+    <form action="#" method="post">
+        <h1>About Us</h1>
+       <label> <input type="text" name="Name" placeholder="Name"></label>
+       <label><input type="text" name="Email" placeholder="Email address"></label>  
+       <label><textarea id="message" name="message" rows="4" cols="50" placeholder="Message"></textarea></label>
+        <button type="submit">Submit</button>
+      </form>
+      
+      <form action="#" method="post">
+        <h1>Login</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password">
+        <button type="submit">Login</button>
+      </form>
+      <h1>Survey</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        
+        <label>Which Prgramming language do you know?</label>
+        <input type="checkbox" id="checkbox" name="checkbox">PHP
+        <input type="checkbox" id="checkbox" name="checkbox">JAVA
+        <input type="checkbox" id="checkbox" name="checkbox">JAVASCRIPT
+        <input type="checkbox" id="checkbox" name="checkbox">PYTHON
+        
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="4" cols="50">Comment</textarea>  
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
